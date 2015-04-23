@@ -1,0 +1,172 @@
+\documentclass[12pt,letterpaper]{report}
+
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{fullpage}
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{enumerate}
+\usepackage{verbatim}
+\usepackage{wrapfig}
+\usepackage{array}
+\usepackage[margin = 1in]{geometry}
+\usepackage{indentfirst}
+
+\usepackage{fix-cm}
+\usepackage{fixltx2e}
+\usepackage{dblfloatfix}
+\usepackage{subfig}
+\usepackage{tabularx}
+\usepackage{multirow}                      % More complex tables
+\usepackage{chngcntr}                      % Show section in table
+
+%\counterwithout{table}{section}
+
+% Use H to place the float at precisely the location in the LaTeX code.
+\usepackage{float}
+
+% Import the package tocbibind to display the bibliography in the table of contents.
+\usepackage[nottoc]{tocbibind}
+
+% The paralist package provides the inparaenum environment (with an optional formatting specification in square brackets).
+\usepackage{paralist}
+
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\graphicspath{ 
+	{./src/introduction/img/}
+	{./src/density_and_level_set_XFEM_schemes_for_topology_optimization_of_3D_structures/img/}
+	{./src/topology_optimization_approaches_for_the_curvature_minimization_of_level_set_isocontours/img/}
+	{./src/level_set_XFEM_topology_optimization_of_3D_navier_stokes_and_scalar_transport_problems/img/}
+	{./src/modeling_of_multiple_scalar_transport_fields_for_an_atomic_layer_deposition_machine/img/}
+	{./src/a_complete_methodology_for_the_implementation_of_XFEM_inclusive_models/img/}
+}
+
+% square uses square brackets.
+% authoryear for author-year citations.
+% numbers for numerical citations.
+% sort orders multiple citations according to the list of references.
+\usepackage[square,numbers,sort]{natbib}
+
+% LaTeX may split a footnote over several pages
+% if the text within a footnote is very long.
+% Prevent LaTeX from doing so by increasing the penalty for such an operation. 
+\interfootnotelinepenalty=10000
+
+% Generate a PDF index.
+% \usepackage[bookmarks,colorlinks]{hyperref}
+\usepackage[bookmarks]{hyperref}
+
+\usepackage{amssymb,amsfonts,amsmath,mathtools}
+
+% Display Matlab code.
+\usepackage{listings}
+
+% Use single, one and a half, double space text.
+\usepackage{setspace}
+\doublespace
+
+% =============================================================================
+
+\begin{document}
+
+\title{Topology Optimization using the Level Set and Extended Finite Element Methods: \\Theory and Applications}
+    
+\author{
+Hernan Villanueva \\ \\
+B.S. Mechanical Engineering, University of Kansas, 2011 \\
+M.S. Mechanical Engineering, University of Colorado Boulder, 2013 \\ \\}
+
+\date{9 January 2015}
+
+\maketitle
+
+\begin{abstract}
+Thesis directed by Professor Kurt Maute, Dr.-Ing.
+
+The goal of this thesis proposal is to introduce a unified topology optimization framework that uses the \textbf{L}evel \textbf{S}et \textbf{M}ethod (LSM) to describe the design geometry and the e\textbf{X}tended \textbf{F}inite \textbf{E}lement \textbf{M}ethod (XFEM) to solve the governing equations and measure the performance of the design. The methodology is presented as an alternative to homogenization optimization approaches, and is able to accommodate a broad range of engineering design problems. The framework will be studied with applications in structural, incompressible Navier-Stokes flow, and scalar transport problems, to test the robustness and the characteristics of the method. A comparison of the framework against density approaches will be studied with regards to convergence, performance, and the capability to manufacture the designs.
+\end{abstract}
+
+% -----------------------------------------------------------------------------
+% Index.
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+% -----------------------------------------------------------------------------
+% Introduction.
+
+\input{src/introduction/introduction}
+
+% -----------------------------------------------------------------------------
+% A complete methodology for the implementation of XFEM inclusive models.
+
+\input{src/a_complete_methodology_for_the_implementation_of_XFEM_inclusive_models/a_complete_methodology_for_the_implementation_of_XFEM_inclusive_models}
+
+% -----------------------------------------------------------------------------
+% Density and level set XFEM schemes for topology optimization of 3D structures.
+
+\input{src/density_and_level_set_XFEM_schemes_for_topology_optimization_of_3D_structures/density_and_level_set_XFEM_schemes_for_topology_optimization_of_3D_structures}
+
+% -----------------------------------------------------------------------------
+% Level Set XFEM Topology Optimization of 3D Navier-Stokes and Scalar Transport Problems.
+
+\input{src/level_set_XFEM_topology_optimization_of_3D_navier_stokes_and_scalar_transport_problems/level_set_XFEM_topology_optimization_of_3D_navier_stokes_and_scalar_transport_problems}
+
+% -----------------------------------------------------------------------------
+% Topology optimization approaches for the curvature minimization of level set isocontours.
+
+\input{src/topology_optimization_approaches_for_the_curvature_minimization_of_level_set_isocontours/topology_optimization_approaches_for_the_curvature_minimization_of_level_set_isocontours}
+
+% -----------------------------------------------------------------------------
+% Modeling of Multiple Scalar Transport Fields for an Atomic Layer Deposition Machine.
+
+\input{src/modeling_of_multiple_scalar_transport_fields_for_an_atomic_layer_deposition_machine/modeling_of_multiple_scalar_transport_fields_for_an_atomic_layer_deposition_machine}
+
+% -----------------------------------------------------------------------------
+
+\chapter{Conclusions}
+\label{sec:main_conclusions}
+The extended finite element method used with a level set topology optimization approach is a promising tool for modeling multiphysics problems, and generating optimal designs. The strength of the approach lies in the capacity of the LSM to describe a crisp definition of the phase boundaries, while the XFEM serves as a tool to model discontinuities in the solution.
+
+In Section \ref{sec:a_complete_methodology_for_the_implementation_of_XFEM_inclusive_models}, we studied the ability of the XFEM to decompose a design domain into subdomains. These subdomains were generated by the intersection of the finite elements in the mesh with a discretized level set function. We then studied an algorithm to determine which enriched degrees-of-freedom to use to integrate the governing equations across disconnected phase regions. Our approach was tested with a two dimensional heat conduction problem. The results showed that our enrichment strategy avoids artificial coupling of disconnected phase regions.
+
+In Section \ref{sec:density_and_level_set_XFEM_schemes_for_topology_optimization_of_3D_structures}, we expanded the work of \citep{MM:13}, and the algorithms and results from Section \ref{sec:a_complete_methodology_for_the_implementation_of_XFEM_inclusive_models} to model three dimensional structural problems. The case studies in this section suggest that the LSM-XFEM framework features an improved convergence as the mesh is refined and is able to represent thin-walled structures on coarse meshes. Density approaches may require a projection scheme \ref{eq:heaviside_density} to achieve clear ``0-1'' results with comparable strain energies. While the smoothing filter in the SIMP method \ref{eq:smoothing_filter_SIMP} is an efficient and intuitive method to control the local feature size, neither level set smoothing \ref{eq:smoothing_filter_SIMP} nor imposing a perimeter constraint achieves a similar effect on LSM-XFEM results. We can conclude that the lack of feature size control and the significant improved complexity of the LSM-XFEM formulation, as shown in Section \ref{sec:a_complete_methodology_for_the_implementation_of_XFEM_inclusive_models} limit the attractiveness of this scheme. However, for problems where a high mesh resolution is not tolerable and/or interface conditions need to be enforced with high accuracy, the LSM-XFEM framework approach might be an interesting alternative to density methods. 
+
+In Section \ref{sec:topology_optimization_approaches_for_the_curvature_minimization_of_level_set_isocontours}, we studied a level set regularization technique in the form of a curvature measure. Preliminary results shows that the formulation helps in controlling the global geometry of the design, and generate smoother surfaces. This may prove useful in generating smooth surface meshes for three dimensional printing.
+
+% -----------------------------------------------------------------------------
+
+\chapter{Remaining Work}
+\label{sec:remaining_work}
+
+\section{Ghost penalty formulation}
+Case studies in the literature show that the ghost penalty formulation leads to a better-posed linear system \citep{SW:14, SRG+:14, BH:12}, and smooths the gradient of the solution at the phase interface. These studies have applied this formulation to two dimensional diffusion and incompressible Navier-Stokes flow problems. Our current work shows that we cannot apply our LSM-XFEM framework in high Reynolds number flows in three dimensions. This occurs because small intersection regions cause ill-conditioning of the system that our preconditioner cannot improve, and the stress jumps \ref{eq:stress_continuity} across the phase regions is not enforced accurately. We plan to test if the ghost penalty formulation can be applied to three dimensional flows and provide convergence to our problems. If so, is it robust enough that it can handle the complex shapes the optimization process may generate?
+
+\section{Curvature}
+The sweep study will be finalized and further optimization runs will be executed. The squared curvature as strain energy \ref{eq:curvature_strain_energy} will be penalized such that low and high values are ignored, and rather intermediate values are reduced during the optimization process. Our hypothesis is that this penalization approach will ameliorate the sensitivity of the curvature formulation to discretization errors. This penalization, along with the artificial springs, should lead to a well-posed optimization problem. We will study the characteristics of this curvature formulation in two dimensional structural optimization problems.
+
+\section{Atomic layer deposition}
+The interaction of the reactants with unwanted outside sources, such as air, leads to imperfections in the deposition. We plan to expand our scalar transport model to simulate multiple scalar transport fields and research the interaction of the reactant with these outside sources. We further plan to expand and apply our LSM-XFEM optimization framework to design the geometry of gas source heads.
+
+% \section{Turbine}
+% A parametric level set field will be used in the topology optimization of the turbine. The blades of the turbine will be modeled by a set of design variables that determine the number, height, width, and shape of the blades. This approach should ameliorate the emergence of disjointed particles in the optimization process, as only the shape and geometry of the blades will be modified.
+
+\section{Timeline}
+The study of curvature as a penalization criteria in an optimization problem will be finalized by April. The optimization of three dimensional incompressible Navier-Stokes and scalar transport problems with a face-oriented ghost penalization will be finalized by the beginning of summer. Summer and fall semester will be dedicated to the atomic layer deposition project, and the modeling of an advection-diffusion problem with multiple scalar fields. The expected graduation date is December 2015.
+% Finally, we will further advance our understanding of parametric optimization by modeling the moving interface field in the turbine problem.
+
+% -----------------------------------------------------------------------------
+
+% BST file (Bibliography STyle).
+% Basic style, author-year citations.
+\bibliographystyle{etc/spbasic}
+
+% BibTex database.     
+\bibliography{etc/JabRefDatabase}
+
+% -----------------------------------------------------------------------------
+
+\end{document}

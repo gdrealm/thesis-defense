@@ -1,0 +1,25 @@
+\chapter{A complete methodology for the implementation of XFEM inclusive models}
+\label{sec:a_complete_methodology_for_the_implementation_of_XFEM_inclusive_models}
+
+% -----------------------------------------------------------------------------
+% Abstract.
+
+This document was written in 2012 as an internal implementation manual for future developers of our code, the Finite Element Multi-Disciplinary Optimization Code (femdoc).
+
+This report offers a background into the eXtended Finite Element Method as a tool to solve the shortcomings of the classical Finite Element Method. An example of such is the numerical solution to problems with different material topologies (i.e. discontinuities). The XFEM uses level set functions to track the location of these discontinuities. The report also provides algorithms for locating these discontinuities and subsequently dividing the domain into sub-domains capable of integration. This report ultimately expounds upon how to effectively apply the local enrichment functions that the XFEM standard approximation requires at the nodes where the discontinuities occur.
+
+The reader may skip this section, as it focuses on the algorithmic implementation of the framework and most of its content is intended for software developers.
+
+% -----------------------------------------------------------------------------
+% Chapters.
+
+% XFEM: Background.
+\input{./src/a_complete_methodology_for_the_implementation_of_XFEM_inclusive_models/src/introduction}
+\input{./src/a_complete_methodology_for_the_implementation_of_XFEM_inclusive_models/src/implementation} 
+\input{./src/a_complete_methodology_for_the_implementation_of_XFEM_inclusive_models/src/results} 
+\input{./src/a_complete_methodology_for_the_implementation_of_XFEM_inclusive_models/src/conclusions} 
+
+% -----------------------------------------------------------------------------
+% Appendices
+
+\input{./src/a_complete_methodology_for_the_implementation_of_XFEM_inclusive_models/src/appendix_a}

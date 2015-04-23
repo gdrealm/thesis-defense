@@ -1,0 +1,7 @@
+Compare   StrucDisp-Y             TimeStep 1   Node   2481  Value  -6.5738e-01  Tolerance 0.03
+Compare   StrucStress-XY          TimeStep 1   Node   2481  Value  -1.5669e-02  Tolerance 0.03
+Compare   StrucStress-VonMises    TimeStep 1   Node   2481  Value   2.7139e-02  Tolerance 0.03
+Compare   StrainEnergy            TimeStep 1   Global 0     Value   1.9698e-03  Tolerance 0.03
+Compare   Mass_Utilization        TimeStep 1   Global 0     Value   5.1990e-01  Tolerance 0.03
+Compare   UxSq                    TimeStep 1   Global 0     Value   8.0764e-04  Tolerance 0.03
+Compare   UySq                    TimeStep 1   Global 0     Value   4.3083e-01  Tolerance 0.03

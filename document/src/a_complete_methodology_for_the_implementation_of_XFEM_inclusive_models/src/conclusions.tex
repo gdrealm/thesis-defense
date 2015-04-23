@@ -1,0 +1,17 @@
+%\section{Conclusions and Future Work}
+\section{Conclusions}
+\label{sec:implementation_conclusions}
+
+% -----------------------------------------------------------------------------
+
+%\subsection{Conclusions}
+
+The framework developed in this project will help eliminate the need to re-mesh a model when discontinuities present in the domain. The program is capable of dividing an element into integrable sub-domains, calculating its topology, its enrichment information and computing the normal vector and Gauss points required for integration. The program is also capable of solving XFEM problems with different topologies in 3D.
+
+Results showed that the differences in solutions with a classical FEM problem for a two dimensional heat conduction model are small.
+
+XFEM produced Jacobian matrices with high condition numbers, but the application of a preconditioner as a function of the level set field solved this shortcoming.
+
+%\subsection{Future work}
+%
+%Future work in this project involves the implementation of the algorithms in a parallel environment. The framework for a parallel algorithm would include two intermediate steps: one between the sub-phase computation and the enrichment level computation and another after the enrichment level algorithm and before the solution of the problem. The first exchange would communicate sub-phase information from elements connected to a node across separate processors. The second exchange of information would send and receive the different enriched degrees of freedom across elements on multiple processors. This last exchange would follow the rules of classical parallel FEM code for coupled problems where two elements have different degrees of freedom.

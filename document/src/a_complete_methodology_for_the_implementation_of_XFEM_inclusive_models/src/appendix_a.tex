@@ -1,0 +1,46 @@
+\section{Appendix A: Delaunay Triangulation code}
+\label{sec:delaunay_triangulation_code}
+
+This code written in Matlab is the first attempt of the author to perform a Delaunay triangulation in an element based on the level set function values at the corner nodes. To triangulate different discontinuities change the $levs$ variable: each entry corresponds to the value of the level set function at a node. The $e_x$, $e_y$, and $e_z$ vector variables contain the coordinates of the corner nodes and can be modified to change the shape of the element.
+
+\lstset{language=Matlab,%
+%	basicstyle=\color{red},
+    breaklines=true,%
+    morekeywords={matlab2tikz},
+    keywordstyle=\color{blue},%
+    morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+    identifierstyle=\color{black},%
+    stringstyle=\color[RGB]{170,55,241},
+    commentstyle=\color[RGB]{28,172,0},%
+    showstringspaces=false,%without this there will be a symbol in the places where there is a space
+    numbers=left,%
+    numberstyle={\tiny \color{black}},% size of the numbers
+    numbersep=9pt, % this defines how far the numbers are from the text
+    emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+    basicstyle=\tiny,
+%	emph=[2]{word1,word2}, emphstyle=[2]{style},    
+}
+
+% -----------------------------------------------------------------------------
+
+\subsection{main.m}
+
+\lstinputlisting{./src/a_complete_methodology_for_the_implementation_of_XFEM_inclusive_models/etc/matlab/main.m}
+
+% -----------------------------------------------------------------------------
+
+\subsection{xfem8isct.m}
+
+\lstinputlisting{./src/a_complete_methodology_for_the_implementation_of_XFEM_inclusive_models/etc/matlab/xfem8isct.m}
+
+% -----------------------------------------------------------------------------
+
+\subsection{xfem8tet.m}
+
+\lstinputlisting{./src/a_complete_methodology_for_the_implementation_of_XFEM_inclusive_models/etc/matlab/xfem8tet.m}
+
+% -----------------------------------------------------------------------------
+
+\subsection{number\_configurations.m}
+
+\lstinputlisting{./src/a_complete_methodology_for_the_implementation_of_XFEM_inclusive_models/etc/matlab/number_configurations.m}

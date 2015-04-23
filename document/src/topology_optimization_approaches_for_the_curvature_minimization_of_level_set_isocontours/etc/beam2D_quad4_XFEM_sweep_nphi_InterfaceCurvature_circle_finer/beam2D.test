@@ -1,0 +1,8 @@
+Compare   StrucDisp-Y       TimeStep 1   Node   1411  Value  -5.4370e-01  Tolerance 0.03
+Compare   StrucDispXFEM-Y   TimeStep 1   Node   1411  Value  -5.4370e-01  Tolerance 0.03
+Compare   StrainEnergy      TimeStep 1   Global 0     Value   1.4492e-03  Tolerance 0.03
+Compare   VolumePhase1      TimeStep 1   Global 0     Value   2.9584e+00  Tolerance 0.03
+Compare   VolumePhase2      TimeStep 1   Global 0     Value   3.0416e+00  Tolerance 0.03
+Compare   Perimeter         TimeStep 1   Global 0     Value   3.0023e+01  Tolerance 0.03
+Compare   UxSq              TimeStep 1   Global 0     Value   2.2438e-04  Tolerance 0.03
+Compare   UySq              TimeStep 1   Global 0     Value   2.9523e-01  Tolerance 0.03

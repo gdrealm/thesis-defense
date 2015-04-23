@@ -1,0 +1,9 @@
+Input FEM file                   = beam2D.g
+LB file                          = beam2D.nem
+File Extension for Spread Files  = .g
+Number of Processors             = 6 
+------------------------------------------------------------
+                Parallel I/O section
+------------------------------------------------------------
+Parallel Disk Info= number=1, offset=1, zeros, nosubdirectory
+Parallel file location = root=/data/villanueva/work/optimization/curvature/beam2D_structuralCompliance_quad4_XFEM_interfaceCurvature_circle_finer/, subdir=nem-6

@@ -1,0 +1,34 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Point ID to cell IDs connectivity table}}{51}{table.caption.27}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Edge to points and cells IDs connectivity table}}{52}{table.caption.29}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Main-phase and sub-phase table for pseudo-elements}}{55}{table.caption.37}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Initial node-element table}}{57}{table.caption.39}
+\contentsline {table}{\numberline {3.5}{\ignorespaces Flipping the enrichment levels}}{58}{table.caption.40}
+\contentsline {table}{\numberline {3.6}{\ignorespaces Final node-element table}}{59}{table.caption.41}
+\contentsline {table}{\numberline {3.7}{\ignorespaces Element to enrichment table}}{59}{table.caption.42}
+\contentsline {table}{\numberline {3.8}{\ignorespaces Initial node-element table configuration 2}}{61}{table.caption.46}
+\contentsline {table}{\numberline {3.9}{\ignorespaces Final node-element table configuration 2}}{61}{table.caption.47}
+\contentsline {table}{\numberline {3.10}{\ignorespaces Element to enrichment table configuration 2}}{61}{table.caption.48}
+\contentsline {table}{\numberline {3.11}{\ignorespaces Initial node-element table configuration 3}}{63}{table.caption.51}
+\contentsline {table}{\numberline {3.12}{\ignorespaces Final node-element table for configuration 3}}{63}{table.caption.52}
+\contentsline {table}{\numberline {3.13}{\ignorespaces Element to enrichment table configuration 3}}{63}{table.caption.53}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Comparison of strain energies of SIMP and LSM-XFEM results for cube with center load problem; the corresponding designs are shown in Figs. \ref {fig:cube-center-load-views-SIMP} and \ref {fig:cube-center-load-views-XFEM}.\relax }}{106}{table.caption.73}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Strain energies of SIMP results for cuboid under torsion problem; SIMP parameters: $p=3$, $r_\rho = 1.6$ of the element edge length, and $\beta =0$; the corresponding designs are shown in Fig. \ref {fig:building-under-torsion-SIMP-optimization-meshDependent}.\relax }}{110}{table.caption.79}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Strain energies of LSM-XFEM results for cuboid under torsion problem; LSM-XFEM parameters: $r_\phi = 1.6$ of the element edge length, no perimeter constraint; the corresponding designs are shown in Fig. \ref {fig:building-under-torsion-XFEM-noPerimeter-meshDependent}.\relax }}{112}{table.caption.81}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Strain energies of SIMP results for different projection parameters $\beta =[0.0,4.0,8.0]$; the corresponding designs are shown in Fig. \ref {fig:building-under-torsion-projection}.\relax }}{114}{table.caption.83}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Strain energies of the SIMP-IDL designs of cuboid under torsion problem; the corresponding designs are shown in Fig. \ref {fig:building-under-torsion-SIMP-optimization-meshDependent}.\relax }}{116}{table.caption.85}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Strain energies of SIMP and LSM-XFEM results for cuboid under torsion problem using a mesh independent filter; the corresponding designs are shown in Fig. \ref {fig:building-under-torsion-radius}.\relax }}{117}{table.caption.88}
+\contentsline {table}{\numberline {4.7}{\ignorespaces Strain energies of LSM-XFEM results for cuboid under torsion problem using a perimeter constraint and different initial designs; the corresponding final designs are shown in Fig. \ref {fig:building-under-torsion-XFEM-perimeter}.\relax }}{119}{table.caption.90}
+\contentsline {table}{\numberline {4.8}{\ignorespaces Strain energies of SIMP and LSM-XFEM results for different stiffness ratios; the corresponding designs are shown in Fig. \ref {fig:long-cantilever-beam-SIMP-XFEM}.\relax }}{121}{table.caption.93}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Parameters for bend problem.\relax }}{130}{table.caption.97}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Parameters for diffuser problem.\relax }}{130}{table.caption.98}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Parameters for diffuser problem.\relax }}{134}{table.caption.104}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Parameters for the curvature optimization study.\relax }}{157}{table.caption.127}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

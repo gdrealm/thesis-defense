@@ -1,0 +1,235 @@
+
+ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+ O P T I M I Z A T I O N   S O L V E R   S W E E P  
+
+ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+ Variable #:				       1
+ Number of iterations:			     201
+ Variable ID's:				        
+ Variables lower limits:		   0.055
+ Variables upper limits:		   0.950
+ FD check:				      No
+
+ Iteration number: 0 
+
+ Variable Id: 0 
+
+ Original variable value: 0.500000 
+
+ Upper variable value: 0.950000 
+
+ Lower variable value: 0.055000 
+
+ Number of steps: 100 
+
+ Step size: 0.008950 
+
+ Perform variable check? 0 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 
+
+ Objective 0.000000 

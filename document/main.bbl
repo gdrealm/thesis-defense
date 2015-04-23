@@ -1,0 +1,644 @@
+\begin{thebibliography}{130}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Abdelaziz and Hamouine(2008)}]{AH:08}
+Abdelaziz Y, Hamouine A (2008) A survey of the extended finite element.
+  Computers \& Structures 86(11):1141--1151
+
+\bibitem[{Allaire et~al(2002)Allaire, Jouve, and Toader}]{AJT:02}
+Allaire G, Jouve F, Toader A (2002) A level-set method for shape optimization.
+  Comptes Rendus Mathematique 334(12):1125--1130
+
+\bibitem[{Allaire et~al(2004)Allaire, Jouve, and Toader}]{AJT:04}
+Allaire G, Jouve F, Toader AM (2004) Structural optimization using sensitivity
+  analysis and a level-set method. Journal of Computational Physics
+  194(1):363--393
+
+\bibitem[{Allaire et~al(2005)Allaire, Gournay, Jouve, and Toader}]{AJ+:05}
+Allaire G, Gournay Fd, Jouve F, Toader AM (2005) Structural optimization using
+  topological and shape sensitivity via a level set method. Control and
+  Cybernetics 34(1):59--80
+
+\bibitem[{Babu\v{s}ka and Melenk(1997)}]{NME:NME86}
+Babu\v{s}ka I, Melenk JM (1997) The partition of unity method. International
+  Journal for Numerical Methods in Engineering 40(4):727--758
+
+\bibitem[{Belytschko and Black(1999)}]{BB:99}
+Belytschko T, Black T (1999) Elastic crack growth in finite elements with
+  minimal remeshing. International Journal for Numerical Methods in Engineering
+  45(5):601--620
+
+\bibitem[{Bends{\o}e(1989)}]{Bendsoe:89}
+Bends{\o}e M (1989) Optimal shape design as a material distribution problem.
+  Structural and Multidisciplinary Optimization 1(4):193--202
+
+\bibitem[{Bends{\o}e and Kikuchi(1988)}]{BK:88}
+Bends{\o}e M, Kikuchi N (1988) Generating optimal topologies in structural
+  design using a homogenization method. Computer Methods in Applied Mechanics
+  and Engineering 71(2):197--224
+
+\bibitem[{Bends{\o}e and Sigmund(1999)}]{BS:99}
+Bends{\o}e M, Sigmund O (1999) Material interpolation schemes in topology
+  optimization. Archive of Applied Mechanics 69(9-10):635--654
+
+\bibitem[{Bends{\o}e et~al(2005)Bends{\o}e, Lund, Olhoff, and
+  Sigmund}]{BLO+:05}
+Bends{\o}e M, Lund E, Olhoff N, Sigmund O (2005) Topology
+  optimization-broadening the areas of application. Control and Cybernetics
+  34(1):7
+
+\bibitem[{Bends{\o}e and Sigmund(2003)}]{BS:03}
+Bends{\o}e MP, Sigmund O (2003) Topology Optimization: Theory, Methods and
+  Applications. Springer
+
+\bibitem[{Borel et~al(2004)Borel, Harp{\~{A}}¸th, Frandsen, Kristensen, Shi,
+  Jensen, and Sigmund}]{BHF+:04}
+Borel PI, Harp{\~{A}}¸th A, Frandsen LH, Kristensen M, Shi P, Jensen JS,
+  Sigmund O (2004) Topology optimization and fabrication of photonic crystal
+  structures. Optics Express 12(9)
+
+\bibitem[{Borrvall and Petersson(2003)}]{BP:03}
+Borrvall T, Petersson J (2003) Topology optimization of fluids in {S}tokes
+  flow. International Journal for Numerical Methods in Fluids 41(1):77--107
+
+\bibitem[{Brooks and Hughes(1982)}]{BH:82}
+Brooks A, Hughes T (1982) Streamline upwind/{P}etrov-{G}alerkin formulations
+  for convection dominated flows with particular emphasis on the incompressible
+  {N}avier-{S}tokes equations. Computer Methods in Applied Mechanics and
+  Engineering 32(1-3):199 -- 259
+
+\bibitem[{Burger et~al(2004)Burger, Hackl, and Ring}]{BHR:04}
+Burger M, Hackl B, Ring W (2004) Incorporating topological derivatives into
+  level set methods. Journal of Computational Physics 194(1):344--362
+
+\bibitem[{Burman and Hansbo(2010)}]{BH:10}
+Burman E, Hansbo P (2010) Fictitious domain finite element methods using cut
+  elements: I. a stabilized lagrange multiplier method. Computer Methods in
+  Applied Mechanics and Engineering 199(41):2680--2686
+
+\bibitem[{Burman and Hansbo(2012)}]{BH:12}
+Burman E, Hansbo P (2012) Fictitious domain finite element methods using cut
+  elements: Ii. a stabilized nitsche method. Applied Numerical Mathematics
+  62(4):328--341
+
+\bibitem[{Cao et~al(2002)Cao, Li, and Petzold}]{YSL:02}
+Cao Y, Li S, Petzold L (2002) Adjoint sensitivity analysis for
+  differential-algebraic equations: algorithms and software. Journal of
+  Computational and Applied Mathematics 149(1):171 -- 191, scientific and
+  Engineering Computations for the 21st Century - Me thodologies and
+  Applications Proceedings of the 15th Toyota Conference
+
+\bibitem[{Chessa and Belytschko(2003)}]{CB:03}
+Chessa J, Belytschko T (2003) An extended finite element method for two-phase
+  fluids. Journal of Applied Mechanics 70
+
+\bibitem[{Coolidge(1952)}]{Coolidge:52}
+Coolidge J (1952) The unsatisfactory story of curvature. American Mathematical
+  Monthly pp 375--379
+
+\bibitem[{Deaton and Grandhi(2013)}]{DG:13}
+Deaton J, Grandhi R (2013) A survey of structural and multidisciplinary
+  continuum topology optimization: post 2000. Structural and Multidisciplinary
+  Optimization pp 1--38
+
+\bibitem[{van Dijk et~al(2012)van Dijk, Langelaar, and van Keulen}]{DLK:12}
+van Dijk N, Langelaar M, van Keulen F (2012) Explicit level-set-based topology
+  optimization using an exact heaviside function and consistent sensitivity
+  analysis. International Journal for Numerical Methods in Engineering
+  91(1):67--97
+
+\bibitem[{Dijk et~al(2013)Dijk, Maute, Langelaar, and Keulen}]{DML+:13}
+Dijk N, Maute K, Langelaar M, Keulen F (2013) Level-set methods for structural
+  topology optimization: a review. Structural and Multidisciplinary
+  Optimization 48(3):437--472
+
+\bibitem[{Dolbow and Harari(2009)}]{DH:09}
+Dolbow J, Harari I (2009) An efficient finite element method for embedded
+  interface problems. Int J Numer Meth Engng 78:229--252
+
+\bibitem[{Duysinx et~al(2006)Duysinx, Miegroet, Jacobs, and Fleury}]{DMJ+:06}
+Duysinx P, Miegroet L, Jacobs T, Fleury C (2006) Generalized shape optimization
+  using x-fem and level set methods. In: {IUTAM} Symposium on Topological
+  Design Optimization of Structures, Machines and Materials, Springer, pp
+  23--32
+
+\bibitem[{Dyn et~al(2001)Dyn, Hormann, Kim, and Levin}]{DHK+:01}
+Dyn N, Hormann K, Kim SJ, Levin D (2001) Optimizing 3d triangulations using
+  discrete curvature analysis. In: Lyche T, Schumaker LL (eds) Mathematical
+  Methods for Curves and Surfaces, Vanderbilt University, chap Optimizing 3D
+  Triangulations Using Discrete Curvature Analysis, pp 135--146
+
+\bibitem[{Erentok and Sigmund(2011)}]{ES:11}
+Erentok A, Sigmund O (2011) Topology optimization of sub-wavelength antennas.
+  Antennas and Propagation, IEEE Transactions on 59(1):58--69
+
+\bibitem[{Eschenauer and Olhoff(2001)}]{EO:01}
+Eschenauer H, Olhoff N (2001) Topology optimization of continuum structures: a
+  review. Applied Mechanics Reviews 54:331
+
+\bibitem[{Eschenauer et~al(1994)Eschenauer, Kobelev, and Schumacher}]{EKS:94}
+Eschenauer H, Kobelev V, Schumacher A (1994) Bubble method for topology and
+  shape optimization of structures. Structural and Multidisciplinary
+  Optimization 8(1):42--51
+
+\bibitem[{Farhat et~al(2004)Farhat, Argrow, Nikbay, and Maute}]{FAN+:04}
+Farhat C, Argrow B, Nikbay M, Maute K (2004) Shape optimization with f-function
+  lobe balancing for reducing the sonic boom initial shock pressure rise.
+  International Journal of Aeroacoustics 3:361--378
+
+\bibitem[{Frenzel(2004)}]{Frenzel:04}
+Frenzel M (2004) Topology optimization for wave problems. Master's thesis,
+  University of Colorado at Boulder
+
+\bibitem[{Fries and Belytschko(2010)}]{FB:10}
+Fries T, Belytschko T (2010) The extended/generalized finite element method: an
+  overview of the method and its applications. International Journal for
+  Numerical Methods in Engineering 84(3):253--304
+
+\bibitem[{Fries(2009)}]{Fries:09}
+Fries TP (2009) The intrinsic xfem for two-fluid flows. Int J Numer Meth Fluids
+  60(4):437--471
+
+\bibitem[{Fuchs et~al(2005)Fuchs, Jiny, and Peleg}]{FJP:05}
+Fuchs M, Jiny S, Peleg N (2005) The srv constraint for 0/1 topological design.
+  Structural and Multidisciplinary Optimization 30(4):320--326
+
+\bibitem[{Gain and Paulino(2013)}]{GP:13}
+Gain AL, Paulino GH (2013) A critical comparative assessment of differential
+  equation-driven methods for structural topology optimization. Structural and
+  Multidisciplinary Optimization 48(4):685--710
+
+\bibitem[{Gerstenberger and Wall(2008{\natexlab{a}})}]{GW:08a}
+Gerstenberger A, Wall WA (2008{\natexlab{a}}) Enhancement of fixed-grid methods
+  towards complex fluid-structure interaction applications. Int J Numer Meth
+  Fluids 57(9):1227--1248
+
+\bibitem[{Gerstenberger and Wall(2008{\natexlab{b}})}]{GW:08}
+Gerstenberger A, Wall WA (2008{\natexlab{b}}) An extended finite element
+  method/{L}agrange multiplier based approach for fluid-structure interaction.
+  Computer Methods in Applied Mechanics and Engineering 197:1699--1714
+
+\bibitem[{Giannakoglou and Papadimitriou(2008)}]{GP:08}
+Giannakoglou K, Papadimitriou D (2008) Adjoint methods for shape optimization.
+  In: Thévenin D, Janiga G (eds) Optimization and Computational Fluid
+  Dynamics, Springer Berlin Heidelberg, pp 79--108
+
+\bibitem[{Gill et~al(2002)Gill, Murray, and Saunders}]{GMS:02}
+Gill PE, Murray W, Saunders MA (2002) Snopt: An sqp algorithm for large-scale
+  constrained optimization. SIAM Journal on Optimization 12(4):979--1006
+
+\bibitem[{Guest et~al(2004)Guest, Pr{\'e}vost, and Belytschko}]{GPB:04}
+Guest J, Pr{\'e}vost J, Belytschko T (2004) Achieving minimum length scale in
+  topology optimization using nodal design variables and projection functions.
+  International Journal for Numerical Methods in Engineering 61(2):238--254
+
+\bibitem[{Guest et~al(2011)Guest, Asadpoure, and Ha}]{GAH:11}
+Guest J, Asadpoure A, Ha SH (2011) Eliminating beta-continuation from heaviside
+  projection and density filter algorithms. Structural and Multidisciplinary
+  Optimization 44(4):443--453
+
+\bibitem[{Hansbo and Hansbo(2004{\natexlab{a}})}]{HH:04}
+Hansbo A, Hansbo P (2004{\natexlab{a}}) A finite element method for the
+  simulation of strong and weak discontinuities in solid mechanics. Computer
+  Methods in Applied Mechanics and Engineering 193(33-35):3523 -- 3540
+
+\bibitem[{Hansbo and Hansbo(2004{\natexlab{b}})}]{HH:04b}
+Hansbo A, Hansbo P (2004{\natexlab{b}}) A finite element method for the
+  simulation of strong and weak discontinuities in solid mechanics. Computer
+  methods in applied mechanics and engineering 193(33):3523--3540
+
+\bibitem[{Hansbo(2005)}]{Hansbo:05}
+Hansbo P (2005) Nitsche's method for interface problems in computational
+  mechanics. GAMM-Mitteilungen 28(2):183--206
+
+\bibitem[{Hashin and Shtrikman(1962)}]{HS:62}
+Hashin Z, Shtrikman S (1962) On some variational principles in anisotropic and
+  nonhomogeneous elasticity. Journal of the Mechanics and Physics of Solids
+  10(4):335 -- 342
+
+\bibitem[{Heroux et~al(2003)Heroux, Bartlett, Hoekstra, Hu, Kolda, Lehoucq,
+  Long, Pawlowski, Phipps, Salinger, Thornquist, Tuminaro, Willenbring, and
+  Williams}]{Trilinos:03}
+Heroux M, Bartlett R, Hoekstra VHR, Hu J, Kolda T, Lehoucq R, Long K, Pawlowski
+  R, Phipps E, Salinger A, Thornquist H, Tuminaro R, Willenbring J, Williams A
+  (2003) {An Overview of Trilinos}. Tech. Rep. SAND2003-2927, Sandia National
+  Laboratories
+
+\bibitem[{Herrero et~al(2013)Herrero, Mart{\'\i}nez, and Mart{\'\i}}]{HMM:13}
+Herrero D, Mart{\'\i}nez J, Mart{\'\i} P (2013) An implementation of level set
+  based topology optimization using gpu. In: 10th World Congress on Structural
+  and Multidisciplinary Optimization
+
+\bibitem[{Juntunen and Stenberg(2009)}]{JS:09}
+Juntunen M, Stenberg R (2009) Nitsche’s method for general boundary
+  conditions. Mathematics of Computation 78:1353--1374
+
+\bibitem[{Kao et~al(2005)Kao, Osher, and Yablonovitch}]{KOY:05}
+Kao C, Osher S, Yablonovitch E (2005) Maximizing band gaps in two-dimensional
+  photonic crystals by using level set methods. Applied Physics B: Lasers and
+  Optics 81(2):235--244
+
+\bibitem[{Kondoh et~al(2012)Kondoh, Matsumori, and Kawamoto}]{KMK:12}
+Kondoh T, Matsumori T, Kawamoto A (2012) Drag minimization and lift
+  maximization in laminar flows via topology optimization employing simple
+  objective function expressions based on body force integration. Structural
+  and Multidisciplinary Optimization 45(5):693--701
+
+\bibitem[{Kreisselmeier and Steinhauser(1979)}]{KS:79}
+Kreisselmeier G, Steinhauser R (1979) Systematic control design by optimizing a
+  vector performance index. In: International Federation of Active Contrals
+  Symposium on Computer Aided Design of Control Systems, Zurich, Switzerland
+
+\bibitem[{Kreissl and Maute(2011)}]{KM:11}
+Kreissl S, Maute K (2011) Topology optimization for unsteady flow.
+  International Journal for Numerical Methods in Engineering 87:1229--1253
+
+\bibitem[{Kreissl and Maute(2012)}]{KM:12}
+Kreissl S, Maute K (2012) Levelset based fluid topology optimization using the
+  extended finite element method. Structural and Multidisciplinary Optimization
+  46(3):311--326
+
+\bibitem[{Kreissl et~al(2011)Kreissl, Pingen, and Maute}]{KPM:11}
+Kreissl S, Pingen G, Maute K (2011) An explicit level set approach for
+  generalized shape optimization of fluids with the lattice boltzmann method.
+  International Journal for Numerical Methods in Fluids 65(5):496--519
+
+\bibitem[{Labb\'e et~al(2009)Labb\'e, Glineur, and Dehez}]{LGD:09}
+Labb\'e T, Glineur F, Dehez B (2009) Topology optimization method applied to
+  the design of electromagnetic devices: focus on convexity issues. In:
+  8$^{\mathrm{th}}$ International Symposium on Advanced Electromechanical
+  Motion Systems and Electric Drives Joint Symposium, {ELECTROMOTION} 2009
+
+\bibitem[{Lang et~al(2013)Lang, Makhija, Doostan, and Maute}]{LMD+:13}
+Lang C, Makhija D, Doostan A, Maute K (2013) A simple and efficient
+  preconditioning scheme for xfem with heaviside enrichments. Computational
+  Mechancis
+
+\bibitem[{Lee and Schachter(1980)}]{LS:80}
+Lee DT, Schachter BJ (1980) Two algorithms for constructing a delaunay
+  triangulation. International Journal of Computer \& Information Sciences
+  9(3):219--242, j2: International Journal of Computer and Information Sciences
+
+\bibitem[{Lee et~al(2011)Lee, Yang, and Maute}]{LYM:11}
+Lee P, Yang R, Maute K (2011) An Extended Finite Element Method for the
+  Analysis of Submicron Heat Transfer Phenomena, Multiscale Methods in
+  Computational Mechanics, Lecture Notes in Applied and Computational
+  Mechanics, vol~55, Springer, pp 195--212
+
+\bibitem[{Legay et~al(2006)Legay, Chessa, and Belytschko}]{LCB:06}
+Legay A, Chessa J, Belytschko T (2006) An eulerian–lagrangian method for
+  fluid–structure interaction based on level sets. Computer Methods in
+  Applied Mechanics and Engineering 195(17–18):2070 -- 2087, fluid-Structure
+  Interaction
+
+\bibitem[{Li et~al(2012)Li, Wang, and Wei}]{LWW:12}
+Li L, Wang M, Wei P (2012) Xfem schemes for level set based structural
+  optimization. Frontiers of Mechanical Engineering 7(4):335--356
+
+\bibitem[{Lorensen and Cline(1987)}]{LC:87}
+Lorensen WE, Cline HE (1987) Marching cubes: A high resolution 3d surface
+  construction algorithm. SIGGRAPH Comput Graph 21(4):163--169
+
+\bibitem[{Luo et~al(2008)Luo, Luo, Chen, Tong, and Wang}]{LLC+:08a}
+Luo J, Luo Z, Chen L, Tong L, Wang M (2008) A semi-implicit level set method
+  for structural shape and topology optimization. Journal of Computational
+  Physics 227(11):5561--5581
+
+\bibitem[{Makhija and Maute(2014{\natexlab{a}})}]{MM:14}
+Makhija D, Maute K (2014{\natexlab{a}}) Level set topology optimization of
+  scalar transport problems. Structural and Multidisciplinary Optimization
+  \doi{10.1007/s00158-014-1142-7}
+
+\bibitem[{Makhija and Maute(2014{\natexlab{b}})}]{MM:13}
+Makhija D, Maute K (2014{\natexlab{b}}) Numerical instabilities in level set
+  topology optimization with the extended finite element method. Structural and
+  Multidisciplinary Optimization 49(2):185--197
+
+\bibitem[{Makhija et~al(2012)Makhija, Pingen, Yang, and Maute}]{MPY+:12}
+Makhija D, Pingen G, Yang R, Maute K (2012) Topology optimization of
+  multi-component flows using a multi-relaxation time lattice boltzmann method.
+  Computers \& Fluids 67(0):104 -- 114
+
+\bibitem[{Maute(2014)}]{Maute:14}
+Maute K (2014) Topology optimization of flows: Stokes and navier-stokes models.
+  In: Rozvany G, LewiÅski T (eds) Topology Optimization in Structural and
+  Continuum Mechanics, CISM International Centre for Mechanical Sciences, vol
+  549, Springer Vienna, pp 409--419
+
+\bibitem[{Maute and Ramm(1995)}]{MR:95}
+Maute K, Ramm E (1995) Adaptive topology optimization. Structural and
+  Multidisciplinary Optimization 10(2):100--112
+
+\bibitem[{Maute and Ramm(1997)}]{MR:97}
+Maute K, Ramm E (1997) Adaptive topology optimization of shell structures. AIAA
+  Journal 35(11):1767--1773
+
+\bibitem[{Maute et~al(1998)Maute, Schwarz, and Ramm}]{MSR:98}
+Maute K, Schwarz S, Ramm E (1998) Adaptive topology optimization of
+  elastoplastic structures. Structural and Multidisciplinary Optimization
+  15(2):81--91
+
+\bibitem[{Maute et~al(2011)Maute, Kreissl, Makhija, and Yang}]{MKM+:11}
+Maute K, Kreissl S, Makhija D, Yang R (2011) Topology optimization of heat
+  conduction in nano-composites. In: 9$^{\mathrm{th}}$ World Congress on
+  Structural and Multidisciplinary Optimization, Shizuoka, Japan
+
+\bibitem[{Meisel et~al(2013)Meisel, Gaynor, Williams, and Guest}]{MGW+:13}
+Meisel N, Gaynor A, Williams C, Guest J (2013) Multiple-material topology
+  optimization of compliant mechanisms created via polyjet 3d printing. In:
+  Twenty Forth Annual International Solid Freeform Fabrication Symposium – An
+  Additive Manufacturing Conference, August 12-14, 2013, Austin, TX
+
+\bibitem[{Michell(1904)}]{Michell:04}
+Michell AGM (1904) The limits of economy of material in frame-structures.
+  Philos Magazine S6 8(47):589--597
+
+\bibitem[{van Miegroet and Duysinx(2007)}]{MD:07}
+van Miegroet L, Duysinx P (2007) Stress concentration minimization of 2d filets
+  using x-fem and level set description. Structural and Multidisciplinary
+  Optimization 33(4-5):425--438
+
+\bibitem[{van Miegroet et~al(2005)van Miegroet, Mo{\"e}s, Fleury, and
+  Duysinx}]{MMF+:05}
+van Miegroet L, Mo{\"e}s N, Fleury C, Duysinx P (2005) Generalized shape
+  optimization based on the level set method. In: 6$^{\mathrm{th}}$ World
+  Congress of Structural and Multidisciplinary Optimization
+
+\bibitem[{Nemhauser and Wolsey(1988)}]{NW:88}
+Nemhauser GL, Wolsey LA (1988) Integer and combinatorial optimization, vol~18.
+  Wiley New York
+
+\bibitem[{Newton and Colson(1736)}]{NC:1736}
+Newton I, Colson J (1736) The Method of Fluxions and Infinite Series; with Its
+  Application to the Geometry of Curve-lines.
+
+\bibitem[{Nguyen et~al(2010)Nguyen, Song, and Paulino}]{NSP:10}
+Nguyen T, Song J, Paulino G (2010) Challenges and advances in system
+  reliability-based optimization of structural topology. In: Structures
+  Congress 2010, pp 480--491
+
+\bibitem[{Nguyen et~al(2012)Nguyen, Paulino, Song, and Le}]{NPS+:12}
+Nguyen T, Paulino G, Song J, Le C (2012) Improving multiresolution topology
+  optimization via multiple discretizations. International Journal for
+  Numerical Methods in Engineering 92(6):507--530
+
+\bibitem[{Nieuwenhuis et~al(2013)Nieuwenhuis, T{\"{o}}ppe, Gorelick, Veksler,
+  and Boykov}]{NTG+:14}
+Nieuwenhuis C, T{\"{o}}ppe E, Gorelick L, Veksler O, Boykov Y (2013) Efficient
+  regularization of squared curvature. CoRR abs/1311.1838
+
+\bibitem[{Ning and Pellegrino(2012)}]{NP:12}
+Ning X, Pellegrino S (2012) Design of lightweight structural components for
+  direct digital manufacturing. In: 53rd AIAA/ASME/ASCE/AHS/ASC Structures,
+  Structural Dynamics and Materials Conference
+
+\bibitem[{Nitsche(1975)}]{Nitsche:75}
+Nitsche J (1975) Uber ein variationsprinzip zur loesung yon dirichlet-problemen
+  bei verwendung yon teilraeumen, die keinen randbedingungen unterworfen sind.
+  Abhandlungen aus dem Mathematischen Seminar der Universit{\"a}t Hamburg
+  36:9--15
+
+\bibitem[{Norato et~al(2007)Norato, Bends{\o}e, Haber, and
+  Tortorelli}]{NBH+:07}
+Norato J, Bends{\o}e M, Haber R, Tortorelli D (2007) A topological derivative
+  method for topology optimization. Structural and Multidisciplinary
+  Optimization 33(4):375--386
+
+\bibitem[{Olsson and Boykov(2012)}]{OB:12}
+Olsson C, Boykov Y (2012) Curvature-based regularization for surface
+  approximation. In: Computer Vision and Pattern Recognition (CVPR), 2012 IEEE
+  Conference on, IEEE, pp 1576--1583
+
+\bibitem[{Olsson and Kreiss(2005)}]{OK:05}
+Olsson E, Kreiss G (2005) A conservative level set method for two phase flow.
+  Journal of Computational Physics 210(1):225 -- 246
+
+\bibitem[{Olsson et~al(2007)Olsson, Kreiss, and Zahedi}]{OKZ:07}
+Olsson E, Kreiss G, Zahedi S (2007) A conservative level set method for two
+  phase flow \{II\}. Journal of Computational Physics 225(1):785 -- 807
+
+\bibitem[{Osher and Paragios(2003)}]{OP:03}
+Osher S, Paragios N (2003) Geometric level set methods in imaging, vision, and
+  graphics. Springer-Verlag New York Inc
+
+\bibitem[{Osher and Santosa(2001)}]{OS:01}
+Osher S, Santosa F (2001) Level set methods for optimization problems involving
+  geometry and constraints: I. frequencies of a two-density inhomogeneous drum.
+  Journal of Computational Physics 171(1):272 -- 288
+
+\bibitem[{Osher and Sethian(1988)}]{OS:88}
+Osher SJ, Sethian JA (1988) Fronts propagating with curvature dependent speed:
+  algorithms based on {H}amilton-{J}acobi formulations. Journal of
+  Computational Physics 79:12---49
+
+\bibitem[{Park and Sutradhar(2014)}]{PS:14}
+Park J, Sutradhar A (2014) A multi-resolution method for 3d multi-material
+  topology optimization. Computer Methods in Applied Mechanics and Engineering
+  (0):--
+
+\bibitem[{Rozvany(2009)}]{Rozvany:09}
+Rozvany G (2009) A critical review of established methods of structural
+  topology optimization. Structural and Multidisciplinary Optimization
+  37(3):217--237
+
+\bibitem[{Rozvany et~al(1994)Rozvany, Zhou, and Sigmund}]{RZS:94}
+Rozvany G, Zhou M, Sigmund O (1994) Optimization of topology. Advances in
+  design optimization Chapman \& Hall, London pp 340--399
+
+\bibitem[{Schleupen et~al(2000)Schleupen, Maute, and Ramm}]{SMR:00}
+Schleupen A, Maute K, Ramm E (2000) Adaptive fe-procedures in shape
+  optimization. Structural and Multidisciplinary Optimization 19:282--302
+
+\bibitem[{Schott and Wall(2014)}]{SW:14}
+Schott B, Wall W (2014) A new face-oriented stabilized xfem approach for 2d and
+  3d incompressible navier--stokes equations. Computer Methods in Applied
+  Mechanics and Engineering 276:233--265
+
+\bibitem[{Schott et~al(2014)Schott, Rasthofer, Gravemeier, and Wall}]{SRG+:14}
+Schott B, Rasthofer U, Gravemeier V, Wall W (2014) A face-oriented stabilized
+  nitsche-type extended variational multiscale method for incompressible
+  two-phase flow. International Journal for Numerical Methods in Engineering
+
+\bibitem[{Sethian and Wiegmann(2000)}]{SW:00}
+Sethian J, Wiegmann A (2000) Structural boundary design via level set and
+  immersed interface methods. Journal of Computational Physics 163(2):489--528
+
+\bibitem[{Shim et~al(2008)Shim, Ho, Wang, and Tortorelli}]{SHW+:08}
+Shim H, Ho V, Wang S, Tortorelli D (2008) Topological shape optimization of
+  electromagnetic problems using level set method and radial basis function.
+  CMES: Computer Modeling in Engineering \& Sciences 37(2):175--202
+
+\bibitem[{Sigmund(2001{\natexlab{a}})}]{Sigmund:01b}
+Sigmund O (2001{\natexlab{a}}) A 99 line topology optimization code written in
+  matlab. Structural and Multidisciplinary Optimization 21(2):120--127
+
+\bibitem[{Sigmund(2001{\natexlab{b}})}]{Sigmund:01}
+Sigmund O (2001{\natexlab{b}}) Design of multiphysics actuators using topology
+  optimization -- {Part I}: One--material structures. Computer Methods in
+  Applied Mechanics and Engineering 190(49--50):6577--6604
+
+\bibitem[{Sigmund(2001{\natexlab{c}})}]{Sigmund:01a}
+Sigmund O (2001{\natexlab{c}}) Design of multiphysics actuators using topology
+  optimization - part {II}: Two-material structures. Computer Methods in
+  Applied Mechanics and Engineering 190(49-50):6605--6627
+
+\bibitem[{Sigmund(2007)}]{Sigmund:07}
+Sigmund O (2007) Morphology-based black and white filters for topology
+  optimization. Structural and Multidisciplinary Optimization 33(4-5):401--424
+
+\bibitem[{Sigmund and Maute(2013)}]{SM:13}
+Sigmund O, Maute K (2013) Topology optimization approaches: {A} comparative
+  review. Structural and Multidisciplinary Optimization
+
+\bibitem[{Sigmund and Petersson(1998)}]{SP:98}
+Sigmund O, Petersson J (1998) Numerical instabilities in topology optimization:
+  A survey on procedures dealing with checkerboards, mesh-dependencies and
+  local minima. Structural and Multidisciplinary Optimization 16(1):168--75
+
+\bibitem[{Sokolowski and Zochowski(1999)}]{SZ:99}
+Sokolowski J, Zochowski A (1999) Topological derivatives for elliptic problems.
+  Inverse problems 15:123
+
+\bibitem[{Stenberg(1995)}]{Stenberg:95}
+Stenberg R (1995) On some techniques for approximating boundary conditions in
+  the finite element method. Journal of Computational and Applied Mathematics
+  63(1-3):139 -- 148
+
+\bibitem[{Stolarska et~al(2001)Stolarska, Chopp, Moes, and
+  Belytschko}]{SCM+:01}
+Stolarska M, Chopp D, Moes N, Belytschko T (2001) Modelling crack growth by
+  level sets in the extended finite element method. International Journal for
+  Numerical Methods in Engineering 51(8):943--960
+
+\bibitem[{Stolpe and Svanberg(2001)}]{SS:01a}
+Stolpe M, Svanberg K (2001) An alternative interpolation scheme for minimum
+  compliance topology optimization. Structural and Multidisciplinary
+  Optimization 22(2):116--124
+
+\bibitem[{Svanberg(1987)}]{Svanberg:87}
+Svanberg K (1987) The method of moving asymptotes - a new method for structural
+  optimization. International Journal for Numerical Methods in Engineering
+  24(2):359--373
+
+\bibitem[{Svanberg(1995)}]{Svanberg:95}
+Svanberg K (1995) A globally convergent version of {M}{M}{A} without
+  linesearch. In: Proceedings of the First World Congress of Structural and
+  Multidisciplinary Optimization, 28 May - 2 June 1995, Goslar, Germany, pp
+  9--16
+
+\bibitem[{Svanberg(2002)}]{Svanberg:02}
+Svanberg K (2002) A class of globally convergent optimization methods based on
+  conservative convex separable approximations. SIAM J on Optimization
+  12(2):555--573
+
+\bibitem[{Tcherniak and Sigmund(2001)}]{TS:01}
+Tcherniak D, Sigmund O (2001) A web-based topology optimization program.
+  Structural and Multidisciplinary Optimization 22(3):179--187
+
+\bibitem[{Tezduyar et~al(1992)Tezduyar, Mittal, Ray, and Shih}]{TMR+:92}
+Tezduyar TE, Mittal S, Ray SE, Shih R (1992) Incompressible flow computations
+  with stabilized bilinear and linear equal-order-interpolation
+  velocity-pressure elements. Computer Methods in Applied Mechanics and
+  Engineering 95:221--242
+
+\bibitem[{Vese and Chan(2002)}]{VC:02}
+Vese LA, Chan TF (2002) A multiphase level set framework for image segmentation
+  using the mumford and shah model. International journal of computer vision
+  50(3):271--293
+
+\bibitem[{Villanueva and Maute(2014)}]{VM:14}
+Villanueva CH, Maute K (2014) Density and level set-xfem schemes for topology
+  optimization of 3-d structures. Comput Mech 54(1):133--150
+
+\bibitem[{Wang et~al(2011)Wang, Lazarov, and Sigmund}]{WLS:11}
+Wang F, Lazarov BS, Sigmund O (2011) On projection methods, convergence and
+  robust formulations in topology optimization. Structural and
+  Multidisciplinary Optimization 43(6):767--784
+
+\bibitem[{Wang and Wang(2004)}]{WW:04c}
+Wang M, Wang X (2004) {``Color''} level sets: a multi-phase method for
+  structural topology optimization with multiple materials. Computer Methods in
+  Applied Mechanics and Engineering 193(6-8):469--496
+
+\bibitem[{Wang and Wang(2005)}]{WW:05}
+Wang M, Wang X (2005) A level-set based variational method for design and
+  optimization of heterogeneous objects. Computer-Aided Design 37(3):321--337
+
+\bibitem[{Wang et~al(2003)Wang, Wang, and Guo}]{WWG:03}
+Wang MY, Wang X, Guo D (2003) A level set method for structural topology
+  optimization. Computer Methods in Applied Mechanics and Engineering
+  192(1-2):227--246
+
+\bibitem[{Wang and Wang(2006)}]{WW:06}
+Wang S, Wang MY (2006) A moving superimposed finite element method for
+  structural topology optimization. Int J Numer Meth Engng 65:1892--1922
+
+\bibitem[{Wächter and Biegler(2006)}]{WBL:06}
+Wächter A, Biegler LT (2006) On the implementation of an interior-point filter
+  line-search algorithm for large-scale nonlinear programming. Mathematical
+  Programming 106(1):25--57
+
+\bibitem[{Wei et~al(2010)Wei, Wang, and Xing}]{WWX:10}
+Wei P, Wang M, Xing X (2010) A study on {X-FEM} in continuum structural
+  optimization using a level set model. Computer-Aided Design 42(8):708--719
+
+\bibitem[{Wilke et~al(2006)Wilke, Kok, and Groenwold}]{WKG:06}
+Wilke DN, Kok S, Groenwold AA (2006) A quadratically convergent unstructured
+  remeshing strategy for shape optimization. International journal for
+  numerical methods in engineering 65(1):1--17
+
+\bibitem[{Xu et~al(2010)Xu, Cai, and Cheng}]{XCC:10}
+Xu S, Cai Y, Cheng G (2010) Volume preserving nonlinear density filter based on
+  heaviside functions. Structural and Multidisciplinary Optimization
+  41(4):495--505
+
+\bibitem[{Yaji et~al(2015)Yaji, Yamada, Kubo, Izui, and Nishiwaki}]{YYK+:15}
+Yaji K, Yamada T, Kubo S, Izui K, Nishiwaki S (2015) A topology optimization
+  method for a coupled thermalâfluid problem using level set boundary
+  expressions. International Journal of Heat and Mass Transfer 81(0):878 -- 888
+
+\bibitem[{Yamada et~al(2010)Yamada, Izui, Nishiwaki, and Takezawa}]{YIN+:10}
+Yamada T, Izui K, Nishiwaki S, Takezawa A (2010) A topology optimization method
+  based on the level set method incorporating a fictitious interface energy.
+  Computer Methods in Applied Mechanics and Engineering 199(45-48):2876--2891
+
+\bibitem[{Yamasaki et~al(2010)Yamasaki, Nishiwaki, Yamada, Izui, and
+  Yoshimura}]{YNY+:10}
+Yamasaki S, Nishiwaki S, Yamada T, Izui K, Yoshimura M (2010) A structural
+  optimization method based on the level set method using a new geometry-based
+  re-initialization scheme. International Journal for Numerical Methods in
+  Engineering 83(12):1580--1624
+
+\bibitem[{Yamasaki et~al(2011)Yamasaki, Nomura, Kawamoto, Sato, and
+  Nishiwaki}]{YNK+:11}
+Yamasaki S, Nomura T, Kawamoto A, Sato K, Nishiwaki S (2011) A level set-based
+  topology optimization method targeting metallic waveguide design problems.
+  International Journal for Numerical Methods in Engineering 87(9):844--868
+
+\bibitem[{Yazid et~al(2009)Yazid, Abdelkader, and Abdelmadjid}]{ANH:09}
+Yazid A, Abdelkader N, Abdelmadjid H (2009) A state-of-the-art review of the
+  x-fem for computational fracture mechanics. Applied Mathematical Modelling
+  33(12):4269 -- 4282
+
+\bibitem[{Yin and Ananthasuresh(2001)}]{YA:01}
+Yin L, Ananthasuresh G (2001) Topology optimization of compliant mechanisms
+  with multiple materials using a peak function material interpolation scheme.
+  Structural and Multidisciplinary Optimization 23(1):49--62
+
+\bibitem[{Zhou and Rozvany(1991)}]{ZR:91}
+Zhou M, Rozvany GIN (1991) The {COC} algorithm, part {II}: Topological,
+  geometrical and generalized shape optimization. Computer Methods in Applied
+  Mechanics and Engineering 89(1-3):309--336
+
+\bibitem[{Zienkiewicz et~al(2005)Zienkiewicz, Taylor, and Zhou}]{ZTZ:05}
+Zienkiewicz O, Taylor RL, Zhou S (2005) Finite Element Method - Its Basis and
+  Fundamentals, 4th edn, Elsevier, chap~9, pp 206--256
+
+\end{thebibliography}

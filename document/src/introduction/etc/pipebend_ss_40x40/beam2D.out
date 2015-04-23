@@ -1,0 +1,23 @@
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+        FEMDOC++ : Finite Element Multi-Disciplinary Optimization Code         
+                                                                               
+                    Copyright (c)  2008  CU-Boulder OptGrp                     
+ ------------------------------------------------------------------------------
+
+      User/Host : villanueva at falcon.colorado.edu (linux / x86_64)
+       Cpu Info : Unknown Processor / Unknown Frequency MHz / 6 Cores
+     Executable : /home/villanueva/codes/femdoc/bin/femdoc-gcc-serial-acml.dbg
+      Arguments : -d ./beam2D.so -D ./beam2D.so
+     Build Date : Jan  2 2015 at 13:23:25
+     Start Time : Jan 06 2015 at 00:06:05
+        Run Dir : /home/villanueva/codes/femdocTests/regressionTests/optimization/fefluid/pipebend_ss_40x40
+
+ ------------------------------------------------------------------------------
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+ ------------------------------------------------------------------------------
+        Input File < ./beam2D.so >
+ ------------------------------------------------------------------------------
+PrintRunTimeInfo: File error
+femdoc-gcc-serial-acml.dbg: Main.C:359: void PrintInputFile(char*, InputMode): Assertion `0' failed.

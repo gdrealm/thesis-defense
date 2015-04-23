@@ -1,0 +1,55 @@
+#!/bin/bash
+
+### -----------------------------------------------------------------------
+### P B S   D I R E C T I V E S  
+### -----------------------------------------------------------------------
+
+#PBS -N beam2D_XFEM
+
+#PBS -e beam2D.stderr
+
+#PBS -o beam2D.output
+
+#PBS -l select=1:ncpus=1
+
+#PBS -l walltime=24:00:00
+
+#PBS -q workq
+
+
+### -----------------------------------------------------------------------
+### J O B   I N F O R M A T I O N  
+### -----------------------------------------------------------------------
+
+### Input file
+RUN_CMD="$HOME/bin/femdoc.serial -d ./beam2D.so -D ./beam2D.so"
+
+### -----------------------------------------------------------------------
+### B E G I N N I N G   O F   E X E C U T I O N 
+### -----------------------------------------------------------------------
+
+cd $PBS_O_WORKDIR
+
+echo "------------------------------------------------------" > pbs.log
+echo "PBS: qsub is running on   : $PBS_O_HOST"               >> pbs.log
+echo "PBS: originating queue is : $PBS_O_QUEUE"              >> pbs.log
+echo "PBS: executing queue is   : $PBS_QUEUE"                >> pbs.log
+echo "PBS: execution mode is    : $PBS_ENVIRONMENT"          >> pbs.log
+echo "PBS: job identifier is    : $PBS_JOBID"                >> pbs.log
+echo "PBS: job name is          : $PBS_JOBNAME"              >> pbs.log
+echo "PBS: node file is         : $PBS_NODEFILE"             >> pbs.log
+echo "PBS: current home dir is  : $PBS_O_HOME"               >> pbs.log
+echo "PBS: working directory is : $PBS_O_WORKDIR"            >> pbs.log
+echo "PBS: mpirun command is    : `which mpirun `"           >> pbs.log
+echo "PBS: hosts are..."                                     >> pbs.log
+echo "`cat $PBS_NODEFILE`"                                   >> pbs.log
+echo "------------------------------------------------------">> pbs.log
+
+cat $PBS_NODEFILE | awk '{printf("%s\n%s\n%s\n%s\n",$1,$1,$1,$1)}' > pbs.hosts
+
+$RUN_CMD >& beam2D.out
+
+
+### -----------------------------------------------------------------------
+### E N D 
+### -----------------------------------------------------------------------

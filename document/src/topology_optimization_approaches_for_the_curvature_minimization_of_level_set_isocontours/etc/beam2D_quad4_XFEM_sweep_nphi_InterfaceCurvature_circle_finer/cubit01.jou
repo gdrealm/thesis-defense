@@ -1,0 +1,365 @@
+## /home/villanueva/apps/cubit/bin/clarox
+## Cubit Version 11.1
+## Cubit Build 38991
+## Revised 2008-12-19 16:57:36 -0700 (Fri, 19 Dec 2008)
+## Running 10/28/2014 01:36:04 PM
+## Command Options:
+## -nographics
+## -warning = On
+## -information = On
+reset
+create vertex 0 0 0
+create vertex 3 0 0
+create vertex 3 2 0
+create vertex 0 2 0
+create curve vertex 1 vertex 2
+create curve vertex 2 vertex 3
+create curve vertex 3 vertex 4
+create curve vertex 4 vertex 1
+create surface curve 1 2 3 4
+move volume 1 x 0 y 0
+curve 1 interval 180
+curve 1 scheme bias factor 1 start vertex 1
+curve 3 interval 180
+curve 3 scheme bias factor 1 start vertex 4
+curve 2 interval 120
+curve 2 scheme bias factor 1 start vertex 2
+curve 4 interval 120
+curve 4 scheme bias factor 1 start vertex 1
+merge volume all
+mesh surface all
+delete group all
+create group "SquareGeom"
+group 2 add surface 1
+group 2 add curve all in surface 1
+group 2 add vertex all in surface 1
+create group "SearchEdges"
+create group "EdgeNodess"
+group 3 add edge all in curve 2
+group 4 add node all in edge 301
+group 4 cleanout
+group 4 add node all in edge 302
+group 4 cleanout
+group 4 add node all in edge 303
+group 4 cleanout
+group 4 add node all in edge 304
+group 4 cleanout
+group 4 add node all in edge 305
+group 4 cleanout
+group 4 add node all in edge 306
+group 4 cleanout
+group 4 add node all in edge 307
+group 4 cleanout
+group 4 add node all in edge 308
+group 4 cleanout
+group 4 add node all in edge 309
+group 4 cleanout
+group 4 add node all in edge 310
+group 4 cleanout
+group 4 add node all in edge 311
+group 4 cleanout
+group 4 add node all in edge 312
+group 4 cleanout
+group 4 add node all in edge 313
+group 4 cleanout
+group 4 add node all in edge 314
+group 4 cleanout
+group 4 add node all in edge 315
+group 4 cleanout
+group 4 add node all in edge 316
+group 4 cleanout
+group 4 add node all in edge 317
+group 4 cleanout
+group 4 add node all in edge 318
+group 4 cleanout
+group 4 add node all in edge 319
+group 4 cleanout
+group 4 add node all in edge 320
+group 4 cleanout
+group 4 add node all in edge 321
+group 4 cleanout
+group 4 add node all in edge 322
+group 4 cleanout
+group 4 add node all in edge 323
+group 4 cleanout
+group 4 add node all in edge 324
+group 4 cleanout
+group 4 add node all in edge 325
+group 4 cleanout
+group 4 add node all in edge 326
+group 4 cleanout
+group 4 add node all in edge 327
+group 4 cleanout
+group 4 add node all in edge 328
+group 4 cleanout
+group 4 add node all in edge 329
+group 4 cleanout
+group 4 add node all in edge 330
+group 4 cleanout
+group 4 add node all in edge 331
+group 4 cleanout
+group 4 add node all in edge 332
+group 4 cleanout
+group 4 add node all in edge 333
+group 4 cleanout
+group 4 add node all in edge 334
+group 4 cleanout
+group 4 add node all in edge 335
+group 4 cleanout
+group 4 add node all in edge 336
+group 4 cleanout
+group 4 add node all in edge 337
+group 4 cleanout
+group 4 add node all in edge 338
+group 4 cleanout
+group 4 add node all in edge 339
+group 4 cleanout
+group 4 add node all in edge 340
+group 4 cleanout
+group 4 add node all in edge 341
+group 4 cleanout
+group 4 add node all in edge 342
+group 4 cleanout
+group 4 add node all in edge 343
+group 4 cleanout
+group 4 add node all in edge 344
+group 4 cleanout
+group 4 add node all in edge 345
+group 4 cleanout
+group 4 add node all in edge 346
+group 4 cleanout
+group 4 add node all in edge 347
+group 4 cleanout
+group 4 add node all in edge 348
+group 4 cleanout
+group 4 add node all in edge 349
+group 4 cleanout
+group 4 add node all in edge 350
+group 4 cleanout
+group 4 add node all in edge 351
+group 4 cleanout
+group 4 add node all in edge 352
+group 4 cleanout
+group 4 add node all in edge 353
+group 4 cleanout
+group 4 add node all in edge 354
+group 4 cleanout
+group 4 add node all in edge 355
+group 4 cleanout
+group 4 add node all in edge 356
+group 4 cleanout
+group 4 add node all in edge 357
+group 4 cleanout
+group 4 add node all in edge 358
+group 4 cleanout
+group 4 add node all in edge 359
+group 4 cleanout
+group 4 add node all in edge 360
+group 4 cleanout
+group 4 add node all in edge 361
+group 4 cleanout
+group 4 add node all in edge 362
+group 4 cleanout
+group 4 add node all in edge 363
+group 4 cleanout
+group 4 add node all in edge 364
+group 4 cleanout
+group 4 add node all in edge 365
+group 4 cleanout
+group 4 add node all in edge 366
+group 4 cleanout
+group 4 add node all in edge 367
+group 4 cleanout
+group 4 add node all in edge 368
+group 4 cleanout
+group 4 add node all in edge 369
+group 4 cleanout
+group 4 add node all in edge 370
+group 4 cleanout
+group 4 add node all in edge 371
+group 4 cleanout
+group 4 add node all in edge 372
+group 4 cleanout
+group 4 add node all in edge 373
+group 4 cleanout
+group 4 add node all in edge 374
+group 4 cleanout
+group 4 add node all in edge 375
+group 4 cleanout
+group 4 add node all in edge 376
+group 4 cleanout
+group 4 add node all in edge 377
+group 4 cleanout
+group 4 add node all in edge 378
+group 4 cleanout
+group 4 add node all in edge 379
+group 4 cleanout
+group 4 add node all in edge 380
+group 4 cleanout
+group 4 add node all in edge 381
+group 4 cleanout
+group 4 add node all in edge 382
+group 4 cleanout
+group 4 add node all in edge 383
+group 4 cleanout
+group 4 add node all in edge 384
+group 4 cleanout
+group 4 add node all in edge 385
+group 4 cleanout
+group 4 add node all in edge 386
+group 4 cleanout
+group 4 add node all in edge 387
+group 4 cleanout
+group 4 add node all in edge 388
+group 4 cleanout
+group 4 add node all in edge 389
+group 4 cleanout
+group 4 add node all in edge 390
+group 4 cleanout
+group 4 add node all in edge 391
+group 4 cleanout
+group 4 add node all in edge 392
+group 4 cleanout
+group 4 add node all in edge 393
+group 4 cleanout
+group 4 add node all in edge 394
+group 4 cleanout
+group 4 add node all in edge 395
+group 4 cleanout
+group 4 add node all in edge 396
+group 4 cleanout
+group 4 add node all in edge 397
+group 4 cleanout
+group 4 add node all in edge 398
+group 4 cleanout
+group 4 add node all in edge 399
+group 4 cleanout
+group 4 add node all in edge 400
+group 4 cleanout
+group 4 add node all in edge 401
+group 4 cleanout
+group 4 add node all in edge 402
+group 4 cleanout
+group 4 add node all in edge 403
+group 4 cleanout
+group 4 add node all in edge 404
+group 4 cleanout
+group 4 add node all in edge 405
+group 4 cleanout
+group 4 add node all in edge 406
+group 4 cleanout
+group 4 add node all in edge 407
+group 4 cleanout
+group 4 add node all in edge 408
+group 4 cleanout
+group 4 add node all in edge 409
+group 4 cleanout
+group 4 add node all in edge 410
+group 4 cleanout
+group 4 add node all in edge 411
+group 4 cleanout
+group 4 add node all in edge 412
+group 4 cleanout
+group 4 add node all in edge 413
+group 4 cleanout
+group 4 add node all in edge 414
+group 4 cleanout
+group 4 add node all in edge 415
+group 4 cleanout
+group 4 add node all in edge 416
+group 4 cleanout
+group 4 add node all in edge 417
+group 4 cleanout
+group 4 add node all in edge 418
+group 4 cleanout
+group 4 add node all in edge 419
+group 4 cleanout
+group 4 add node all in edge 420
+group 4 cleanout
+delete group 4
+delete group 3
+set node constraint off
+block 1 surface 1
+block 1 name "Box"
+block 1 element type QUAD4
+sideset 1 curve 1
+sideset 1 name "XAxis"
+sideset 2 curve 2
+sideset 2 name "XmaxPlane"
+sideset 3 curve 3
+sideset 3 name "YmaxPlane"
+sideset 4 curve 4
+sideset 4 name "YAxis"
+sideset 5 edge 353
+sideset 5 edge 354
+sideset 5 edge 355
+sideset 5 edge 356
+sideset 5 edge 357
+sideset 5 edge 358
+sideset 5 edge 359
+sideset 5 edge 360
+sideset 5 edge 361
+sideset 5 edge 362
+sideset 5 edge 363
+sideset 5 edge 364
+sideset 5 edge 365
+sideset 5 edge 366
+sideset 5 edge 367
+sideset 5 edge 368
+sideset 5 name "Input"
+create group "Nodes_Group"
+group 5 add node all in curve 1
+nodeset 1 group 5
+nodeset 1 name "XAxis"
+delete group 5
+create group "Nodes_Group"
+group 6 add node all in curve 2
+nodeset 2 group 6
+nodeset 2 name "XmaxPlane"
+delete group 6
+create group "Nodes_Group"
+group 7 add node all in curve 3
+nodeset 3 group 7
+nodeset 3 name "YmaxPlane"
+delete group 7
+create group "Nodes_Group"
+group 8 add node all in curve 4
+nodeset 4 group 8
+nodeset 4 name "YAxis"
+delete group 8
+nodeset 5 node 354
+nodeset 5 node 355
+nodeset 5 node 355
+nodeset 5 node 356
+nodeset 5 node 356
+nodeset 5 node 357
+nodeset 5 node 357
+nodeset 5 node 358
+nodeset 5 node 358
+nodeset 5 node 359
+nodeset 5 node 359
+nodeset 5 node 360
+nodeset 5 node 360
+nodeset 5 node 361
+nodeset 5 node 361
+nodeset 5 node 362
+nodeset 5 node 362
+nodeset 5 node 363
+nodeset 5 node 363
+nodeset 5 node 364
+nodeset 5 node 364
+nodeset 5 node 365
+nodeset 5 node 365
+nodeset 5 node 366
+nodeset 5 node 366
+nodeset 5 node 367
+nodeset 5 node 367
+nodeset 5 node 368
+nodeset 5 node 368
+nodeset 5 node 369
+nodeset 5 node 369
+nodeset 5 node 370
+nodeset 5 name "Input"
+nodeset 6 vertex 1
+nodeset 6 name "Origin"
+export mesh "beam2D_180x120.g" dimension 2 overwrite

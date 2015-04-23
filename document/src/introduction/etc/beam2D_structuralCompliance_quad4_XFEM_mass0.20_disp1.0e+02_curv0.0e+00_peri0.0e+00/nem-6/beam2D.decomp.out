@@ -1,0 +1,121 @@
+nem_slice version 4.05
+Performing an elemental load balance with the following parameters...
+Machine Description
+	architecture: mesh
+	dimension(s): 6
+	total number of processors: 6
+Load Balance Parameters
+	type: multilevel
+	number of sections: 1
+	refinement: Kernighan-Lin
+Eigensolver Parameters
+	eignsolver tolerance: 0.001000
+Weighting Parameters
+	no weighting
+Miscellaneous Options
+	SPHERES are being treated as concentrated mass - connectivity exists
+	WARNING: side id error checks turned off
+ExodusII mesh information
+	title: cubit(beam2D_45x30.g): 06/28/2012: 15:48:10
+	geometry dimension: 2
+	number of nodes: 1426	number of elements: 1350
+	number of element blocks: 1
+	number of node sets: 6	number of side sets: 5
+Time to read mesh parameters: 0.000000s
+Time to read mesh: 0.000000s
+Time to find surrounding elements: 0.000000s
+Time to find the adjacency: 0.000000s
+Time to generate graph: 0.000000s
+===================Call Chaco===========================
+Parameter file `User_Params' not found; using default parameters.
+
+
+           Input and Parameter Values
+
+# vertices = 1350, # edges = 5177
+Global method: Multilevel-KL
+Number of vertices to coarsen down to: 200
+Eigen tolerance: 0.001
+Local method: Kernighan-Lin
+Partitioning target: 1-dimensional mesh of size 6
+Partitioning mode: Bisection
+Random seed: 1
+Active Parameters:
+  CHECK_INPUT = True
+  LANCZOS_TYPE:  Selective orthogonalization
+  EIGEN_TOLERANCE = 0.001
+  SRESTOL = -1 ... autoset to square of eigen tolerance
+  LANCZOS_MAXITNS = -1 ... autoset to twice # vertices
+  LANCZOS_SO_PRECISION = 2 ... double precision
+  LANCZOS_SO_INTERVAL = 10
+  LANCZOS_CONVERGENCE_MODE = 0 ... residual tolerance
+  BISECTION_SAFETY = 10
+  LANCZOS_TIME = 0 ... no detailed timing
+  WARNING_EVECS = 2
+  MAPPING_TYPE = 1 ... min-cost assignment
+  MAKE_CONNECTED = True
+  PERTURB = False
+  COARSEN_RATIO_MIN = 0.7
+  COARSE_NLEVEL_KL = 2
+  MATCH_TYPE = 1
+  HEAVY_MATCH = False
+  COARSE_KL_BOTTOM = True
+  COARSEN_VWGTS = True
+  COARSEN_EWGTS = True
+  KL_ONLY_BNDY = True
+  KL_RANDOM = True
+  KL_METRIC = Hops
+  KL_NTRIES_BAD = 1
+  KL_BAD_MOVES = 20
+  KL_UNDO_LIST = True
+  KL_IMBALANCE = 0
+  TERM_PROP = False
+  OUTPUT_METRICS = 2
+  MAKE_VWGTS = False
+  REFINE_MAP = False
+  REFINE_PARTITION = 0
+  INTERNAL_VERTICES = False
+  DEBUG_PARAMS = 2
+
+
+
+Starting to partition ...
+
+
+
+                     Partitioning Results
+
+After full partitioning  (nsets = 6)
+
+                            Total      Max/Set      Min/Set
+                            -----      -------      -------
+Set Size:                    1350          225          225
+Edge Cuts:                    345          158           91
+Mesh Hops:                    532          262           91
+Boundary Vertices:            254           58           32
+Boundary Vertex Hops:         393           99           32
+Adjacent Sets:                 18            4            2
+Internal Vertices:           1112          194          171
+
+
+Total time: 0.008 sec.
+  partitioning 0.007
+
+Lanczos time: 0.005 sec.
+========================================================
+Time in Chaco: 0.010000s
+Time to generate load balance: 0.010000s
+Time for elemental categorization: 0.000000s
+Nodal categorization: 0.000000s
+Find procs for border nodes: 0.000000s
+Order elem cmaps: 0.000000s
+Make cmaps consistent: 0.000000s
+Time to generate load-balance maps: 0.000000s
+Outputting load balance to file beam2D.nem
+QA Record:
+	nem_slice
+	4.05
+	 2 Oct 2014
+	12:49:01
+Time to write Nemesis file: 0.000000s
+The entire load balance took 0.010000s

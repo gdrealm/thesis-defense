@@ -1,0 +1,4 @@
+#dir                    exec        np      base        InputType     ExodusFileNum  	Priority     nemesis_result_file
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Structural
+beam2D_structuralCompliance_quad4_SIMP               serial      1       beam2D      dD            0002              1            none
